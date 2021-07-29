@@ -1,0 +1,19 @@
+main: ee.zscriptcode.Tutorial.Tutorial
+name: Tutorial
+version: 1.0
+api-version: 1.16
+
+# Replace "Tutorial" with the name of your command.
+commands:
+  Tutorial:
+    description: Gives diamonds and bricks.
+    usage: /Tutorial
+    permission: Tutorial.zscriptcode.CommandTutorial
+  # Replace "Blocks" with the name of your command.
+  Blocks:
+    description: Gives emerald and stones.
+    usage: /Blocks
+    permission: Tutorial.zscriptcode.CommandBlocks
+  fly:
+    description: Allows you to fly
+    usage: /fly
